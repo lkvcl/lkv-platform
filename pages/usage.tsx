@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@geist-ui/react';
+
 import { Amplify, Auth } from 'aws-amplify';
 import awsExports from '../amplify-services/aws-exports';
 Amplify.configure(awsExports);
@@ -17,5 +17,4 @@ const Page = ({ signOut, user }) => (
 
   </div>
 );
-
 export default withAuthenticator(Page);
