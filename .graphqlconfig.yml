@@ -1,0 +1,16 @@
+projects:
+  lkvportal:
+    schemaPath: schema.json
+    includes:
+      - ./amplify-services/*
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: ./amplify-services/ApiGraphql.ts
+        docsFilePath: ./amplify-services
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3

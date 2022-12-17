@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lkvportal-dev-212830-authRole",
+      "UnauthRoleArn": "arn:aws:iam::050052498166:role/amplify-lkvportal-dev-212830-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::050052498166:role/amplify-lkvportal-dev-212830-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-lkvportal-dev-212830-deployment",
+      "UnauthRoleName": "amplify-lkvportal-dev-212830-unauthRole",
+      "StackName": "amplify-lkvportal-dev-212830",
+      "StackId": "arn:aws:cloudformation:us-east-2:050052498166:stack/amplify-lkvportal-dev-212830/bdab7310-7da1-11ed-89a4-06104bcf858e",
+      "AmplifyAppId": "d1ukfxwo5o52vw"
+    },
+    "categories": {
+      "auth": {
+        "lkvportal40e861b8": {}
+      },
+      "api": {
+        "lkvportal": {}
+      }
+    }
+  }
+}

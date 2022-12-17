@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
   return (
     <>
       <nav className="menu-nav">
-        <h1 className="menu-nav__title">React Dashboard Design</h1>
+        <h1 className="menu-nav__title"> <Avatar src={"/assets/avatar.png"} style={{padding : "0 0"}}  />React Dashboard Design</h1>
         <div>
           <Button
             aria-label="Toggle Dark mode"
