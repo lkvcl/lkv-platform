@@ -21,11 +21,7 @@ const Page = () => {
             />
             <OverviewProject projectId="personal-website" repo="ofekashery/personal-website" createdAt="2d" />
             <OverviewProject projectId="docs" repo="github/docs" createdAt="5d" />
-            <NextLink href="/projects" passHref>
-              <Link className="view-all" color underline>
-                View All Projects
-              </Link>
-            </NextLink>
+
           </div>
           <div className="recent-activity">
             <Text h2 className="recent-activity__title">
@@ -46,11 +42,7 @@ const Page = () => {
             <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="9d">
               You created project <b>personal-website</b>
             </EventListItem>
-            <NextLink href="/activity" passHref>
-              <Link className="view-all" color underline>
-                View All Activity
-              </Link>
-            </NextLink>
+
           </div>
         </div>
       </div>
