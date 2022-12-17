@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Amplify, Auth } from 'aws-amplify';
 import awsExports from '../amplify-services/aws-exports';
 Amplify.configure(awsExports);
